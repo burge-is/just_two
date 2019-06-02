@@ -5,8 +5,8 @@ const hide = (object, property) => {
   });
 };
 
-function get(array, track) {
-  array.by = Object.assign(by, { track });
+function get(array) {
+  array.by = by;
   array.and = array.by;
   hide(array, "by");
   hide(array, "and");
@@ -33,16 +33,6 @@ function get(array, track) {
       ),
       by.track
     );
-    if (by.track) {
-      Object.assign(result, {
-        parent: this,
-        property,
-        value
-      });
-      hide(array, "parent");
-      hide(array, "property");
-      hide(array, "value");
-    }
     return result;
   }
 }
