@@ -4,7 +4,6 @@ const hide = (object, property) => {
     enumerable: false
   });
 };
-
 function get(array) {
   array.by = by;
   array.and = array.by;
@@ -32,7 +31,7 @@ function get(array) {
         }
       ),
       by.track
-    );
+    )
     return result;
   }
 }
