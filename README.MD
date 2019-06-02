@@ -1,7 +1,7 @@
 # what?
 I woke up with a [haunting pun](https://www.youtube.com/watch?v=UVtpXvzzXiA&t=1m20s) stuck in my head.  And thus **just_two** was born.
 
-The original idea was that I was going to make a human readable array filter by chaining just two functions `get` and `by`
+The original idea was that I was going to make a human readable array filter by chaining just two functions: `get` and `by`
 ```
 .
 └── get( Array || Object )
