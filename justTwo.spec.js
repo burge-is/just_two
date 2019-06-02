@@ -118,7 +118,7 @@ const { get } = require("./justTwo.js");
     .equals(1);
   assert(subject.length === 3);
 })();
-// console.log(arr);
+
 let test = [...arr];
 assert(test.by === undefined);
 assert(arr.by);
