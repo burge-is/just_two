@@ -1,0 +1,18 @@
+{
+  "name": "just_two",
+  "version": "0.0.3s",
+  "main": "justTwo.js",
+  "repository": "",
+  "scripts": {
+    "test": "node justTwo.spec.js"
+  },
+  "keywords": [
+    "We commute to computers",
+    "Spirits stay mute while you eagles spread rumors",
+    "We survivalists, turned to consumers",
+    "To get by...just to get by"
+  ],
+  "author": "i.am@dburg.es",
+  "license": "MIT",
+  "description": "Just two functions: `get` and `by`"
+}
