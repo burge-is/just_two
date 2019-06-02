@@ -15,7 +15,7 @@ const JustTwo = (function() {
         ? get(this.parent).by(input)(value)
         : get(this.parent).by(input);
     };
-
+    
     hide(array, "or");
     hide(array, "by");
     hide(array, "and");
@@ -46,6 +46,7 @@ const JustTwo = (function() {
     Object.keys(extras).forEach(key => hide(equals, key));
 
     return value ? equals(value) : equals;
+    
     function compare(value, fn) {
       const result = get(
         array.filter(
