@@ -1,8 +1,8 @@
 {
   "name": "just_two",
-  "version": "0.0.3s",
+  "version": "0.0.4",
   "main": "justTwo.js",
-  "repository": "",
+  "repository": "https://github.com/burge-is/just_two.git",
   "scripts": {
     "test": "node justTwo.spec.js"
   },
